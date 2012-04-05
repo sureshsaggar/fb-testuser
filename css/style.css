@@ -1,0 +1,29 @@
+body {
+  font-family:Helvetica;
+}
+
+#step00 input {
+    width: 40%;
+}
+
+#step01 input {
+    width: 81%;
+}
+
+#step02 textarea, #step03 textarea {
+    width: 94%;
+	margin-top: 10px;
+}
+
+center {
+  	color:#DCDCDC;
+	font-size:12px;
+}
+
+fieldset {
+ 	margin-bottom:10px;
+}
+
+center a {
+    color: #DCDCDC;
+}
