@@ -2,10 +2,10 @@
 //
 // Author: suresh.saggar@gmail.com
 // This application ID & secret have been registered with the 
-// following URL - https://developers.facebook.com/apps/425850510764995
+// following URL - https://developers.facebook.com/apps/373873685991377
 //
-$APP_ID = "425850510764995"; // APP ID
-$APP_SECRET = "e25790d4859e93418c0bd24d02879d6f"; // APP SECRET
+$APP_ID = "373873685991377"; // APP ID
+$APP_SECRET = "8edc0998b456a0006efc74cadf591001"; // APP SECRET
 
 $debug = trim($_GET['debug']); 
 

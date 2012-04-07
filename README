@@ -7,29 +7,31 @@ Author: suresh saggar
 Host this code on any HTTP server such as Apache and point your browser to index.php.
 Use your FB APP ID & Secret to track new user creation against you app.
 
-== Manual Steps  == 
-=== 1. Obtain an App Access Token ===
-URL: https://graph.facebook.com/oauth/access_token?client_id=425850510764995&client_secret=e25790d4859e93418c0bd24d02879d6f&grant_type=client_credentials
-Ans: access_token=425850510764995|PG-KcYGuvr135cKKSbIcmY637kE
+== Manual Steps  ==  
+=== 1. Obtain an App Access Token === 
+URL: https://graph.facebook.com/oauth/access_token?client_id=373873685991377&client_secret=8edc0998b456a0006efc74cadf591001&grant_type=client_credentials
+Ans: access_token=373873685991377|6ygEuf8ts_gCtXEbtv9xGS3e7dM
 
-=== 2. Make requests to the API ===
-URL: https://graph.facebook.com/app?access_token=425850510764995|PG-KcYGuvr135cKKSbIcmY637kE
+=== 2. Make requests to the API === 
+URL: https://graph.facebook.com/app?access_token=373873685991377|6ygEuf8ts_gCtXEbtv9xGS3e7dM
 Ans: {
-   "id": "425850510764995",
-   "name": "hikesignup",
-   "link": "https://www.facebook.com/apps/application.php?id=425850510764995",
-   "namespace": "hikesignup",
+   "id": "373873685991377",
+   "name": "git\u0040github.com:sureshsaggar/f b-testuser.git",
+   "link": "https://www.facebook.com/apps/application.php?id=373873685991377",
+   "namespace": "gitfbtestuser",
    "icon_url": "http://static.ak.fbcdn.net/rsrc.php/v1/yT/r/4QVMqOjUhcd.gif",
-   "logo_url": "http://static.ak.fbcdn.net/rsrc.php/v1/y_/r/9myDd8iyu0B.gif",
-   "daily_active_users": "2",
-   "weekly_active_users": "2",
-   "monthly_active_users": "2",
-   "canvas_name": "hikesignup"
+   "logo_url": "http://static.ak.fbcdn.net/rsrc.php/v1/y_/r/9myDd8iyu0B.gif"
 }
 
-=== 3. Test Users ===
-URL: https://graph.facebook.com/425850510764995/accounts/test-users?locale=en_US&permissions=email,read_stream&method=post&name=Suresh%20Saggar&access_token=425850510764995|PG-KcYGuvr135cKKSbIcmY637kE
-Ans:??
+=== 3. Test Users === 
+URL: https://graph.facebook.com/425850510764995/accounts/test-users?locale=en_US&permissions=email,read_stream&method=post&name=Suresh%20Saggar&access_token=373873685991377|6ygEuf8ts_gCtXEbtv9xGS3e7dM
+Ans:{
+   "id": "100003730891521",
+   "access_token": "AAAFUCUAZBj9EBAGbyZAUnhk9JXwztCylOsSVUylp016vzpdVfiDBMsjeiNjRVBetu19Ynj3EqGMlpwzcgiWWFZBEy0bQXQzPhJ7ZC1lt0pMGaVdKOysE",
+   "login_url": "https://www.facebook.com/platform/test_account_login.php?user_id=100003730891521&n=OmodVisubN5kdF4",
+   "email": "suresh_gsrmkvg_saggar\u0040tfbnw.net",
+   "password": "697181457"
+}
 
 == Got a query? ==
 Just shoot an mail to me @ suresh.saggar@gmail.com.
