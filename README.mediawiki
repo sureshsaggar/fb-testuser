@@ -1,18 +1,13 @@
-<nowiki>
-Poject: fb-testuser
-Author: suresh saggar
-</nowiki>
+== Curl ==
+=== How does it work? ===
+Host this code on any HTTP server such as Apache and point your browser to index.php. Use your FB APP ID & Secret to track new user creation against you app.
 
-== How does it work? ==
-Host this code on any HTTP server such as Apache and point your browser to index.php.
-Use your FB APP ID & Secret to track new user creation against you app.
-
-== Manual Steps  ==  
-=== 1. Obtain an App Access Token === 
+=== Manual Steps  ===  
+==== 1. Obtain an App Access Token ====
 URL: https://graph.facebook.com/oauth/access_token?client_id=373873685991377&client_secret=8edc0998b456a0006efc74cadf591001&grant_type=client_credentials
 Ans: access_token=373873685991377|6ygEuf8ts_gCtXEbtv9xGS3e7dM
 
-=== 2. Make requests to the API === 
+==== 2. Make requests to the API ==== 
 URL: https://graph.facebook.com/app?access_token=373873685991377|6ygEuf8ts_gCtXEbtv9xGS3e7dM
 Ans: {
    "id": "373873685991377",
@@ -23,7 +18,7 @@ Ans: {
    "logo_url": "http://static.ak.fbcdn.net/rsrc.php/v1/y_/r/9myDd8iyu0B.gif"
 }
 
-=== 3. Test Users === 
+==== 3. Test Users ====
 URL: https://graph.facebook.com/425850510764995/accounts/test-users?locale=en_US&permissions=email,read_stream&method=post&name=Suresh%20Saggar&access_token=373873685991377|6ygEuf8ts_gCtXEbtv9xGS3e7dM
 Ans:{
    "id": "100003730891521",
@@ -32,6 +27,8 @@ Ans:{
    "email": "suresh_gsrmkvg_saggar\u0040tfbnw.net",
    "password": "697181457"
 }
+
+== Java ==
 
 == Got a query? ==
 Just shoot an mail to me @ suresh.saggar@gmail.com.
